@@ -166,7 +166,7 @@ if (rightArrow) {
 // <!-- ==========  Start Typing  ========== -->
 
 var typed = new Typed(".typing", {
-  strings: ["Front End Developer", "Freelancer"],
+  strings: ["Front End Developer"],
   typeSpeed: 100,
   BackSpeed: 100,
   loop: true,
