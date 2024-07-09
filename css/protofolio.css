@@ -43,16 +43,13 @@
   background-color: var(--body-color);
   padding-left: 270px;
   animation: scaleAnmi 1s ease-in-out forwards;
- 
 }
-
 
 @keyframes scaleAnmi {
   from {
-  left: 100vw;
-
+    left: 100vw;
   }
-  to{
+  to {
     left: 0;
   }
 }
@@ -61,7 +58,6 @@
   background-color: var(--body-color);
   padding-left: 270px;
   animation: scaleAnmi 1s ease-in-out forwards;
- 
 }
 .main__content__home .active {
   z-index: 2;
@@ -125,6 +121,61 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.img__scroll_8 {
+  background-image: url(../images/e-commerce-app.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img__scroll_9 {
+  background-image: url(../images/crud-system.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img__scroll_10 {
+  background-image: url(../images/shopping-cart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img__scroll_11 {
+  background-image: url(../images/temp-web.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img__scroll_12 {
+  background-image: url(../images/temp-web2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img__scroll_13 {
+  background-image: url(../images/bostany.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img__scroll_14 {
+  background-image: url(../images/dashboard.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img__scroll_15 {
+  background-image: url(../images/react-shopping-cart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.img__scroll_16 {
+  background-image: url(../images/furn-site.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.img__scroll_17 {
+  background-image: url(../images/car-site.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
 
 .portfolio__over__relay {
   outline: none;
@@ -151,6 +202,9 @@
 .portfolio__over__relay p {
   font-size: 13px;
   color: var(--text-color);
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.8;
 }
 
 .portfolio__links {
@@ -193,18 +247,17 @@
     cursor: pointer;
     color: var(--text-color);
     font-size: 25px !important;
-}
-.icon__dark__light {
-  font-size: 25px !important;
+  }
+  .icon__dark__light {
+    font-size: 25px !important;
     position: absolute;
     right: 100%;
     top: 50px;
-  
+
     margin-right: 50px;
     cursor: pointer;
     color: var(--text-color);
-
-}
+  }
   .main__switcher__themes .colors {
     height: 45px !important;
   }
@@ -232,30 +285,30 @@
     left: -270px;
     z-index: 1000;
   }
-  
-.main__potofolio__content {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
-  width: 100%;
-  padding-bottom: 50px;
-}
 
-.portfolio__over__relay h4 {
-  font-size: 30px;
-  text-align: center;
+  .main__potofolio__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-  color: var(--text-color);
-}
+  .portfolio__over__relay h4 {
+    font-size: 30px;
+    text-align: center;
 
-.portfolio__over__relay p {
-  font-size: 23px;
-  text-align: center;
-  color: var(--text-color);
-}
-.portfolio__over__relay .portfolio__links a {
-  font-size: 20px;
-}
+    color: var(--text-color);
+  }
+
+  .portfolio__over__relay p {
+    font-size: 23px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .portfolio__over__relay .portfolio__links a {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .main__content__home {
@@ -278,18 +331,17 @@
     cursor: pointer;
     color: var(--text-color);
     font-size: 27px !important;
-
-}
-.icon__dark__light {
+  }
+  .icon__dark__light {
     font-size: 27px !important;
     position: absolute;
     right: 100%;
     top: 50px;
-  
+
     margin-right: 50px;
     cursor: pointer;
     color: var(--text-color);
-}
+  }
   .main__switcher__themes .colors {
     height: 45px !important;
   }
@@ -317,32 +369,32 @@
     left: -270px;
     z-index: 1000;
   }
-  
-.main__potofolio__content {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
-  width: 100%;
-  padding-bottom: 50px;
-}
 
-.portfolio__over__relay h4 {
-  font-size: 35px;
-  text-align: center;
+  .main__potofolio__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-  color: var(--text-color);
-}
+  .portfolio__over__relay h4 {
+    font-size: 35px;
+    text-align: center;
 
-.portfolio__over__relay p {
-  font-size: 26px;
-  text-align: center;
-  color: var(--text-color);
+    color: var(--text-color);
+  }
+
+  .portfolio__over__relay p {
+    font-size: 26px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .portfolio__over__relay .portfolio__links a {
+    font-size: 25px;
+  }
 }
-.portfolio__over__relay .portfolio__links a {
-  font-size: 25px;
-}
-}
-@media screen and (min-width: 767px) and (max-width: 992px){
+@media screen and (min-width: 767px) and (max-width: 992px) {
   .main__content__home {
     padding-left: 0px;
   }
@@ -363,18 +415,17 @@
     cursor: pointer;
     color: var(--text-color);
     font-size: 35px !important;
-
-}
-.icon__dark__light {
-  font-size: 35px !important;
+  }
+  .icon__dark__light {
+    font-size: 35px !important;
     position: absolute;
     right: 100%;
     top: 50px;
-  
+
     margin-right: 50px;
     cursor: pointer;
     color: var(--text-color);
-}
+  }
   .main__switcher__themes .colors {
     height: 45px !important;
   }
@@ -402,32 +453,32 @@
     left: -270px;
     z-index: 1000;
   }
-  
-.main__potofolio__content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  width: 100%;
-  padding-bottom: 50px;
-}
 
-.portfolio__over__relay h4 {
-  font-size: 35px;
-  text-align: center;
+  .main__potofolio__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-  color: var(--text-color);
-}
+  .portfolio__over__relay h4 {
+    font-size: 35px;
+    text-align: center;
 
-.portfolio__over__relay p {
-  font-size: 26px;
-  text-align: center;
-  color: var(--text-color);
+    color: var(--text-color);
+  }
+
+  .portfolio__over__relay p {
+    font-size: 26px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .portfolio__over__relay .portfolio__links a {
+    font-size: 25px;
+  }
 }
-.portfolio__over__relay .portfolio__links a {
-  font-size: 25px;
-}
-}
-@media screen and (min-width: 993px) and (max-width: 1024px){
+@media screen and (min-width: 993px) and (max-width: 1024px) {
   .main__content__home {
     padding-left: 0px;
   }
@@ -448,18 +499,17 @@
     cursor: pointer;
     color: var(--text-color);
     font-size: 37px !important;
-
-}
-.icon__dark__light {
-  font-size: 37px !important;
+  }
+  .icon__dark__light {
+    font-size: 37px !important;
     position: absolute;
     right: 100%;
     top: 50px;
-  
+
     margin-right: 50px;
     cursor: pointer;
     color: var(--text-color);
-}
+  }
   .main__switcher__themes .colors {
     height: 45px !important;
   }
@@ -487,28 +537,28 @@
     left: -270px;
     z-index: 1000;
   }
-  
-.main__potofolio__content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  width: 100%;
-  padding-bottom: 50px;
-}
 
-.portfolio__over__relay h4 {
-  font-size: 35px;
-  text-align: center;
+  .main__potofolio__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-  color: var(--text-color);
-}
+  .portfolio__over__relay h4 {
+    font-size: 35px;
+    text-align: center;
 
-.portfolio__over__relay p {
-  font-size: 26px;
-  text-align: center;
-  color: var(--text-color);
-}
-.portfolio__over__relay .portfolio__links a {
-  font-size: 25px;
-}
+    color: var(--text-color);
+  }
+
+  .portfolio__over__relay p {
+    font-size: 26px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .portfolio__over__relay .portfolio__links a {
+    font-size: 25px;
+  }
 }
