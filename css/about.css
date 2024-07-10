@@ -256,7 +256,16 @@ body {
   font-weight: 300;
   font-size: 14px;
 }
-
+.common p a {
+  color: var(--text-color) !important;
+  font-size: 12px;
+}
+.common p span {
+  font-size: 12px;
+}
+.common p {
+  font-size: 12px;
+}
 .common .bold_info {
   /* margin-right: 6px; */
 }
